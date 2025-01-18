@@ -1,5 +1,12 @@
 import "./App.css";
+import ChatInterface from './components/ChatInterface'; // Import your component
 
-export default function App() {
-  return <main className="font-bold text-xl"> This is the text 🌀</main>;
-}
+const App = () => {
+  return (
+    <div>
+      <ChatInterface /> 
+    </div>
+  );
+};
+
+export default App;
