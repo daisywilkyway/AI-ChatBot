@@ -1,9 +1,5 @@
-import './App.css'
+import "./App.css";
 
 export default function App() {
-  return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
-  )
+  return <main className="font-bold text-xl"> This is the text 🌀</main>;
 }
